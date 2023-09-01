@@ -1,0 +1,15 @@
+.container-grid{
+    border:2px solid lightblue;
+    padding:5px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:25px;
+}
+.grid-item{
+    border:2px solid lightsalmon;
+    font-size: 30px;
+
+}
+.grid-column-span{
+    grid-row: span2;
+}
